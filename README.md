@@ -70,7 +70,7 @@ To run and see how the app works
 
 I hope this will help you get started with Android app development using Android Studio. 
 
-## Unique Feautures:
+## Unique Features:
 
 -> AI-driven Task Allocation
 
