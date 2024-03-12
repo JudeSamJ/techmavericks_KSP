@@ -1,5 +1,14 @@
 # Tech_Mavericks_KSP
 
+## Objective:
+Our primary goal is to develop a mobile application for
+task allocation within law enforcement. This application
+will leverage AI-based recommendations, informed by
+expert police officer review, to optimize task
+assignment based on officer expertise, experience, and
+station capabilities, ultimately aiming to improve
+efficiency and effectiveness.
+
 ## Unique Feautures:
 
 -> AI-driven Task Allocation
