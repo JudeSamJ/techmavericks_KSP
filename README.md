@@ -157,4 +157,5 @@ with visual overlays to show regional trends.
 
 ## Work Flow: 
 
-file:///C:/Users/SEC/AppData/Local/Microsoft/Windows/INetCache/IE/NS4RKL2N/Your%20paragraph%20text[1].pdf
+[Your paragraph text (1).pdf](https://github.com/JudeSamJ/techmavericks_KSP/files/14568017/Your.paragraph.text.1.pdf)
+
