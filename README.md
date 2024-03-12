@@ -157,7 +157,8 @@ with visual overlays to show regional trends.
 
 ## Work Flow: 
 
-[Work_Flow.pdf](https://github.com/JudeSamJ/techmavericks_KSP/files/14568017/Your.paragraph.text.1.pdf)
+![Your paragraph text](https://github.com/JudeSamJ/techmavericks_KSP/assets/119479566/385ba17e-d59d-4712-8444-d52f2fae52da)
+
 
 ## Summary:
 
