@@ -2,23 +2,23 @@
 
 ## Unique Feautures:
 
-### -> AI-driven Task Allocation
+-> AI-driven Task Allocation
 
-### -> Mobile Application and Dashboard
+-> Mobile Application and Dashboard
 
-### -> Reward System for Motivation
+-> Reward System for Motivation
 
-### -> Implementing Comprehensive Security Measures
+-> Implementing Comprehensive Security Measures
 
-### -> Criminal Record Access
+-> Criminal Record Access
 
-### -> Data Acquisition
+-> Data Acquisition
 
-### -> Streamlining Collaboration
+-> Streamlining Collaboration
 
-### -> Strategic AI-Generated Public Disclosure
+-> Strategic AI-Generated Public Disclosure
 
-### -> Secure Chat Communication
+-> Secure Chat Communication
 
 ### -> Dashboard Design
 
