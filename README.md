@@ -15,7 +15,7 @@ In this guide, I am going to help you get started with Android application devel
 
 Below are the basic requirements you should have prior to getting started.
 
-#### Prerequisites 
+### Prerequisites 
 
 1. The latest Java Development Kit(JDK). At the time of writing, JDK8 was the latest JDK. Install it [here](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
 
@@ -24,13 +24,13 @@ Below are the basic requirements you should have prior to getting started.
 3. The latest version of Android Studio. Get it from [here](https://developer.android.com/studio/index.html).
 
 
-#### Let's look at the basic Android App.
+### Let's look at the basic Android App.
 
-####  Install Android Studio
+###  Install Android Studio
 
 Follow the Android Studio installer instructions. Keep track of the location where the system puts the Android files. This makes accessing your files easier.
 
-#### Start your first Android application
+### Start your first Android application
 
 -> Go to File -> New Project
 
@@ -54,7 +54,7 @@ Follow the Android Studio installer instructions. Keep track of the location whe
   
 -> By default, you should have a designer with the Sample Text, "Hello World", displayed. Believe it or not, this is a fully-functional Android application. No code necessary! Let's test it out.
 
-#### Run your basic "Hello World" application
+### Run your basic "Hello World" application
 
 To run and see how the app works 
 
@@ -97,24 +97,24 @@ I hope this will help you get started with Android app development using Android
 -> DySP/ACP level
 
 
-#### AI-driven Task Allocation:
+### AI-driven Task Allocation:
 Utilize AI to recommend task assignments based on officer
 expertise, experience, and station capabilities, guided by expert police officer review.
 
-#### Mobile Application and Dashboard:
+### Mobile Application and Dashboard:
 Provide a user-friendly mobile application and an
 intuitive dashboard for officers and supervisors to access and manage tasks.
 
-#### Reward System for Motivation: 
+### Reward System for Motivation: 
 Introduce an incentive system to acknowledge and
 motivate officers for completing assigned tasks efficiently.
 
-#### Implementing Comprehensive Security Measures: 
+### Implementing Comprehensive Security Measures: 
 Safeguarding sensitive police
 information through SSL encryption, Hardware Secure Modules, and HTTPS for secure
 interactions with the server, while maintaining role-specific data access for each user
 
-#### Criminal Record Access: 
+### Criminal Record Access: 
 Grant authorized officers access to detailed criminal records to
 enhance case investigation and decision-making.
 
@@ -122,35 +122,35 @@ enhance case investigation and decision-making.
 Develop mobile application for police officers. Integrate with existing
 police IT systems (PoliceIT, IRAD).
 
-#### Streamlining Collaboration: 
+### Streamlining Collaboration: 
 Strengthening Collaboration: Enabling police to engage with
 lawyers and prosecutors on case files, and facilitating direct evidence submission to
 obtain arrest warrants from High Court judges.
 
-#### Strategic AI-Generated Public Disclosure: 
+### Strategic AI-Generated Public Disclosure: 
 If a high-profile case requires public awareness,
 Utilizing AI to craft concise, redacted articles for online and print publication, excluding sensitive
 details. These articles can be strategically shared with news channels and newspapers.
 
-#### Secure Chat Communication: 
+### Secure Chat Communication: 
 Provide a secure in-app chat functionality for communication
 between officers and superiors regarding sensitive criminal information, ensuring that the data
 remains within the chat until the case is officially closed.
 
-#### Dashboard Design: 
+### Dashboard Design: 
 Display data at three levels: police station, inspector (PI), and DySP/ACP.
 
-#### Police station level: 
+### Police station level: 
 Show tables with active tasks list (including task type, assigned officer,
 start/due date, and status) and officer roster (including name, rank, current tasks, and availability).
 Use bar charts to compare task completion rates and visualize task distribution by type.
 
-#### PI level: 
+### PI level: 
 Use maps to show the locations of police stations under the PI's supervision. Use bar
 charts to compare performance metrics (e.g., completion rates, average response time) of stations
 under a PI. Include trend lines to show progress or workload changes over time.
 
-#### DySP/ACP level:
+### DySP/ACP level:
 Use summary tables to display total tasks, open vs. closed tasks, and manpower
 metrics for the region. Optionally, use a map to show the locations of multiple PIs' jurisdictions,
 with visual overlays to show regional trends.
