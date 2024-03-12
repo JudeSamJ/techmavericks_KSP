@@ -155,3 +155,6 @@ Use summary tables to display total tasks, open vs. closed tasks, and manpower
 metrics for the region. Optionally, use a map to show the locations of multiple PIs' jurisdictions,
 with visual overlays to show regional trends.
 
+## Work Flow: 
+
+file:///C:/Users/SEC/AppData/Local/Microsoft/Windows/INetCache/IE/NS4RKL2N/Your%20paragraph%20text[1].pdf
