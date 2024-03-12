@@ -160,6 +160,8 @@ with visual overlays to show regional trends.
 ![Your paragraph text](https://github.com/JudeSamJ/techmavericks_KSP/assets/119479566/385ba17e-d59d-4712-8444-d52f2fae52da)
 
 
+
+
 ## Summary:
 
 • Implementing automated workflows, real-time communication systems, and a
