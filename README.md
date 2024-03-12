@@ -1,6 +1,6 @@
 # Tech_Mavericks_KSP
 
-## Objective:
+# Objective:
 Our primary goal is to develop a mobile application for
 task allocation within law enforcement. This application
 will leverage AI-based recommendations, informed by
@@ -9,7 +9,7 @@ assignment based on officer expertise, experience, and
 station capabilities, ultimately aiming to improve
 efficiency and effectiveness.
 
-## Android Studio:
+# Android Studio:
 Here we create our App through the Android Studio. Here we see how to use Android Studio and how to work on it.
 In this guide, I am going to help you get started with Android application development using Android Studio. This tutorial is for beginners who have yet to create an Android applications. As such, I aim to teach you the very basics of the Android Studio platform. 
 
@@ -70,7 +70,7 @@ To run and see how the app works
 
 I hope this will help you get started with Android app development using Android Studio. 
 
-## Unique Feautures:
+# Unique Feautures:
 
 -> AI-driven Task Allocation
 
