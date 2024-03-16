@@ -16,10 +16,10 @@
         android:foregroundGravity="bottom|center_vertical|clip_horizontal|center|fill_vertical|clip_vertical|right|center_horizontal|fill"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.52"
+        app:layout_constraintHorizontal_bias="0.571"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0">
+        app:layout_constraintVertical_bias="1.0">
 
     </View>
 
@@ -48,6 +48,7 @@
         tools:layout_editor_absoluteX="26dp"
         tools:layout_editor_absoluteY="442dp" />
 
+
     <Button
         android:id="@+id/button"
         android:layout_width="wrap_content"
@@ -57,11 +58,10 @@
         android:text="More rewards"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.473"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.835" />
-
+        app:layout_constraintVertical_bias="0.893" />
 
     <EditText
         android:id="@+id/editTextText4"
