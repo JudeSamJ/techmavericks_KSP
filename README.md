@@ -11,7 +11,7 @@ efficiency and effectiveness.
 
 ## Android Studio:
 Here we create our App through the Android Studio. Here we see how to use Android Studio and how to work on it.
-In this guide, I am going to help you get started with Android application development using Android Studio. This tutorial is for beginners who have yet to create an Android applications. As such, I aim to teach you the very basics of the Android Studio platform. 
+in this guide, I am going to help you get started with Android application development using Android Studio. This tutorial is for beginners who have yet to create an Android applications. As such, I aim to teach you the very basics of the Android Studio platform. 
 
 Below are the basic requirements you should have prior to getting started.
 
