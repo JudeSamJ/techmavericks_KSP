@@ -4,6 +4,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
+import android.widget.ImageButton
 
 class DashboardActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -37,6 +38,11 @@ class DashboardActivity : AppCompatActivity() {
             val intent = Intent(this, ChatActivity::class.java)
             startActivity(intent)
 
+        }
+        val profileButton: ImageButton = findViewById(R.id.person_menu)
+        profileButton.setOnClickListener {
+            val intent = Intent(this, Profile::class.java)
+            startActivity(intent)
         }
     }
 }
