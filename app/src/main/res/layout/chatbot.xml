@@ -101,7 +101,7 @@
                 android:id="@+id/edit"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="ASK ME"
+                android:hint="@string/ask_me"
                 android:textSize="25dp"
                 android:paddingLeft="24dp"
                 android:paddingBottom="16dp"
