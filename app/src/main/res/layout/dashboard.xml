@@ -55,7 +55,7 @@
         android:id="@+id/person_menu"
         android:layout_width="70dp"
         android:layout_height="73dp"
-        android:background="@drawable/custom_icon"
+        android:background="@drawable/baseline_perm_identity_24"
         android:contentDescription="Menu"
         android:padding="8dp"
         android:src="@mipmap/person_menu"
@@ -188,6 +188,7 @@
     </ImageView>
 
     <ImageView
+        android:id="@+id/map_button"
         android:layout_width="111dp"
         android:layout_height="76dp"
         android:layout_gravity="center_horizontal"
