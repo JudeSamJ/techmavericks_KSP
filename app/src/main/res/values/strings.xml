@@ -43,4 +43,34 @@
         libero vel nunc consequat, quis tincidunt nisl eleifend. Cras bibendum enim a justo luctus
         vestibulum. Fusce dictum libero quis erat maximus, vitae volutpat diam dignissim.
     </string>
+    <string name="article_string">Article</string>
+    <string name="article_subheading">CRIME REPORT</string>
+    <string name="paragraph"> <b>Crimes Against Senior Citizens:</b>
+\n\n
+<i>There has been a significant rise in crimes targeting senior citizens in Karnataka. This includes murder, assault, and financial exploitation.These cases often demand extra attention due to the vulnerability of the victims.</i>
+\n\n
+\n\n
+<b>CYBERCRIME:</b>
+\n\n
+<i>With Karnataka tech-savvy population, cybercrimes like online fraud, hacking, and identity theft are on the rise.These cases can be complex and require specialized investigation techniques.</i>
+\n\n
+/n/n
+<b>PROPERTY OFFENSES:</b>
+\n\n
+<i>Cases like theft, burglary, and land grabbing are unfortunately common.Efficient investigation and property recovery are crucial aspects of these cases.</i>
+\n\n
+<b>CORRUPTION:</b>
+\n\n
+
+<i>Corruption cases involving public officials are a major concern for the public.These can be challenging due to the potential influence of those involved.</i>
+\n\n
+<b>ORGANIZED CRIME:</b>
+\n\n
+<i>drug trafficking, illegal gambling, and other forms of organized crime pose a serious threat to public safety.These cases require extensive investigation and collaboration between different police units.</i>
+\n\n
+\n\n
+<b>MISSING PERSONS:</b>
+\n\n
+<i>Finding missing individuals, especially children, is a top priority for police.These cases can be very time-sensitive and emotionally charged.</i>
+\n\n</string>
 </resources>
