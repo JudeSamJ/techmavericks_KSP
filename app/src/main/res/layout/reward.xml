@@ -8,18 +8,16 @@
 
     <View
         android:id="@+id/top_rounded_rectangle"
-        android:layout_width="440dp"
-        android:layout_height="279dp"
-        android:layout_marginTop="3dp"
-        android:layout_marginBottom="530dp"
+        android:layout_width="426dp"
+        android:layout_height="215dp"
+        android:layout_marginBottom="576dp"
         android:background="@drawable/rectangle_shape"
         android:foregroundGravity="bottom|center_vertical|clip_horizontal|center|fill_vertical|clip_vertical|right|center_horizontal|fill"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.52"
+        app:layout_constraintHorizontal_bias="0.515"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.795">
+        app:layout_constraintTop_toTopOf="parent">
 
     </View>
 
@@ -35,7 +33,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/top_rounded_rectangle"
-        app:layout_constraintVertical_bias="0.228" />
+        app:layout_constraintVertical_bias="0.189" />
 
     <EditText
         android:id="@+id/editTextText"
