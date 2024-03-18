@@ -32,5 +32,11 @@ class DashboardActivity : AppCompatActivity() {
             startActivity(intent)
 
         }
+        val chatButton: Button = findViewById(R.id.button6)
+        chatButton.setOnClickListener {
+            val intent = Intent(this, ChatActivity::class.java)
+            startActivity(intent)
+
+        }
     }
 }
