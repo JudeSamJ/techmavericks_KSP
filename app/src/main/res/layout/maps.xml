@@ -35,7 +35,7 @@
                     android:layout_height="match_parent"
                     android:fontFamily="sans-serif-medium"
                     android:foregroundGravity="center"
-                    android:text="            Head quarters"
+                    android:text="        Head quarters"
                     android:textAlignment="center"
                     android:textColor="#150F0F"
                     android:textSize="32dp"

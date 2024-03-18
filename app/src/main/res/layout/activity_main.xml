@@ -5,14 +5,15 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="10dp"
-    tools:context=".MainActivity">
+    tools:context=".criminal_record">
 
     <TextView
         android:id="@+id/texttitle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
-        android:text="Please enter the details below"
+        android:text="Criminal Record"
+        android:textAlignment="center"
         android:background="@color/orange"
         android:textStyle="bold"
         android:textSize="28dp">
@@ -36,7 +37,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/name"
         android:layout_marginTop="48dp"
-        android:hint="Case_no"
+        android:hint="Case_No"
         android:inputType="number"
         android:textSize="24dp" />
 
@@ -50,6 +51,7 @@
         android:inputType="number"
         android:textSize="24dp" />
 
+
     <Button
         android:id="@+id/btnInsert"
         android:layout_width="match_parent"
@@ -58,6 +60,8 @@
         android:text="Insert New Data"
         android:layout_marginTop="30dp"
         android:layout_below="@id/dob"/>
+
+
 
     <Button
         android:id="@+id/btnUpdate"
@@ -83,6 +87,8 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/btnDelete"
         android:layout_marginTop="30dp"
-        android:text="View Data"
+        android:text="Fetch Data"
         android:textSize="24dp" />
+
+
 </RelativeLayout>
