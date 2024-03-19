@@ -2,6 +2,22 @@
 <project version="4">
   <component name="deploymentTargetDropDown">
     <value>
+      <entry key="ChatActivity">
+        <State>
+          <targetSelectedWithDropDown>
+            <Target>
+              <type value="QUICK_BOOT_TARGET" />
+              <deviceKey>
+                <Key>
+                  <type value="VIRTUAL_DEVICE_PATH" />
+                  <value value="C:\Users\SEC\.android\avd\Pixel_4_API_33.avd" />
+                </Key>
+              </deviceKey>
+            </Target>
+          </targetSelectedWithDropDown>
+          <timeTargetWasSelectedWithDropDown value="2024-03-19T07:48:19.874644800Z" />
+        </State>
+      </entry>
       <entry key="DashboardActivity">
         <State />
       </entry>
@@ -9,9 +25,6 @@
         <State />
       </entry>
       <entry key="Profile">
-        <State />
-      </entry>
-      <entry key="RewardActivity">
         <State />
       </entry>
       <entry key="app">
