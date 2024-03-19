@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".article">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="-1dp"
+        android:background="@color/orange"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme" />
+
+
+    <ImageButton
+        android:id="@+id/article1"
+        android:layout_width="63dp"
+        android:layout_height="47dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="11dp"
+        android:layout_marginEnd="358dp"
+        android:layout_marginBottom="682dp"
+        android:src="@drawable/baseline_arrow_back_24"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/editTextText6"
+        android:layout_width="352dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="103dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="1) Cybercrimes like online frauds, hacking" />
+
+    <EditText
+        android:id="@+id/editTextText7"
+        android:layout_width="372dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="202dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="2) Drug Trafficking leads to spoil youth's life " />
+
+    <EditText
+        android:id="@+id/editTextText9"
+        android:layout_width="377dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="300dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="3) Incidents of violence,robberies,and murders" />
+
+    <EditText
+        android:id="@+id/editTextText10"
+        android:layout_width="373dp"
+        android:layout_height="56dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="4dp"
+        android:layout_marginBottom="298dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="4)  Corruption in Government Institutions." />
+
+    <EditText
+        android:id="@+id/editTextText11"
+        android:layout_width="378dp"
+        android:layout_height="57dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="4dp"
+        android:layout_marginBottom="208dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="5) Domestic abuse remains a prevalent issue. " />
+
+    <EditText
+        android:id="@+id/editTextText12"
+        android:layout_width="384dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginBottom="127dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="6) Witnesses a high number of road accidents." />
+
+    <EditText
+        android:id="@+id/editTextText13"
+        android:layout_width="109dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="73dp"
+        android:layout_marginTop="0dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="REPORT"
+        android:textSize="23dp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>
