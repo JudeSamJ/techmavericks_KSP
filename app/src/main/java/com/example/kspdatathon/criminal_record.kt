@@ -26,10 +26,8 @@ class criminal_record : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.criminal_record)
 
-        val criminalButton: ImageButton = findViewById(R.id.criminal_button)
-        criminalButton.setOnClickListener {
-            val intent = Intent(this, DashboardActivity::class.java)
-            startActivity(intent)
+
+
 
             name = findViewById(R.id.name)
             contact = findViewById(R.id.contact)
@@ -120,6 +118,7 @@ class criminal_record : AppCompatActivity() {
                 builder.setMessage(buffer.toString())
                 builder.show()
             }
-        }
+
+
     }
 }
