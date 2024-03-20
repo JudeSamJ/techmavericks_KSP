@@ -44,5 +44,10 @@ class DashboardActivity : AppCompatActivity() {
             val intent = Intent(this, Profile::class.java)
             startActivity(intent)
         }
+        val settingsButton: ImageButton = findViewById(R.id.btn_menu)
+        settingsButton.setOnClickListener {
+            val intent = Intent(this, Settings::class.java)
+            startActivity(intent)
+        }
     }
 }
