@@ -55,5 +55,10 @@ class DashboardActivity : AppCompatActivity() {
             val intent = Intent(this, Article::class.java)
             startActivity(intent)
         }
+        val taskButton: Button = findViewById(R.id.button1)
+        taskButton.setOnClickListener {
+            val intent = Intent(this, Article::class.java)
+            startActivity(intent)
+        }
     }
 }
