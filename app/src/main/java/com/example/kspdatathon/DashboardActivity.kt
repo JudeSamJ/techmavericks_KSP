@@ -48,6 +48,12 @@ class DashboardActivity : AppCompatActivity() {
         settingsButton.setOnClickListener {
             val intent = Intent(this, Settings::class.java)
             startActivity(intent)
+
+        }
+        val articleButton: Button = findViewById(R.id.button5)
+        articleButton.setOnClickListener {
+            val intent = Intent(this, Article::class.java)
+            startActivity(intent)
         }
     }
 }
