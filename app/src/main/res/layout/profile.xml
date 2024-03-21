@@ -133,25 +133,29 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.888" />
 
-    <EditText
+    <TextView
         android:id="@+id/editTextText5"
         android:layout_width="171dp"
         android:layout_height="43dp"
         android:ems="10"
-        android:inputType="text"
+        android:fontFamily="@font/alata"
+        android:text="BAJANTRI"
+        android:textSize="25sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.9"
+        app:layout_constraintHorizontal_bias="0.883"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.418" />
 
-    <EditText
+    <TextView
         android:id="@+id/editTextText2"
         android:layout_width="167dp"
         android:layout_height="43dp"
         android:ems="10"
-        android:inputType="text"
+        android:fontFamily="@font/alata"
+        android:text="WHC"
+        android:textSize="25sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.885"
@@ -159,25 +163,29 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.502" />
 
-    <EditText
+    <TextView
         android:id="@+id/editTextTextEmailAddress"
         android:layout_width="203dp"
         android:layout_height="40dp"
         android:ems="10"
-        android:inputType="textEmailAddress"
+        android:fontFamily="@font/alata"
+        android:text="bajantri123@gmail.com"
+        android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.951"
+        app:layout_constraintHorizontal_bias="0.879"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.758" />
+        app:layout_constraintVertical_bias="0.761" />
 
-    <EditText
+    <TextView
         android:id="@+id/editTextPhone"
         android:layout_width="202dp"
         android:layout_height="40dp"
         android:ems="10"
-        android:inputType="phone"
+        android:fontFamily="@font/alata"
+        android:text="9865732174"
+        android:textSize="25sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.947"
@@ -185,12 +193,14 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.677" />
 
-    <EditText
+    <TextView
         android:id="@+id/editTextNumber"
         android:layout_width="78dp"
         android:layout_height="43dp"
         android:ems="10"
-        android:inputType="number"
+        android:fontFamily="@font/alata"
+        android:text="5"
+        android:textSize="25sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.648"
@@ -209,5 +219,17 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.059"
         app:srcCompat="@drawable/backward" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="118dp"
+        android:layout_height="131dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.453"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.228"
+        app:srcCompat="@drawable/profile_pic" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

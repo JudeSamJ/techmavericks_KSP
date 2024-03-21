@@ -34,13 +34,15 @@
         app:layout_constraintTop_toTopOf="@+id/top_rounded_rectangle"
         app:layout_constraintVertical_bias="0.054" />
 
-    <EditText
+    <TextView
         android:id="@+id/editTextText5"
         android:layout_width="358dp"
         android:layout_height="42dp"
         android:ems="10"
+        android:fontFamily="@font/alata"
         android:inputType="text"
         android:text="Basic Settings"
+        android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.49"
@@ -48,13 +50,15 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.264" />
 
-    <EditText
+    <TextView
         android:id="@+id/editTextText6"
         android:layout_width="358dp"
         android:layout_height="42dp"
         android:ems="10"
+        android:fontFamily="@font/alata"
         android:inputType="text"
         android:text="About"
+        android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.49"
@@ -62,13 +66,15 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.686" />
 
-    <EditText
+    <TextView
         android:id="@+id/editTextText7"
         android:layout_width="358dp"
         android:layout_height="42dp"
         android:ems="10"
+        android:fontFamily="@font/alata"
         android:inputType="text"
         android:text="Languages"
+        android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.49"
@@ -76,13 +82,15 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.599" />
 
-    <EditText
+    <TextView
         android:id="@+id/editTextText8"
         android:layout_width="358dp"
         android:layout_height="42dp"
         android:ems="10"
+        android:fontFamily="@font/alata"
         android:inputType="text"
         android:text="Backup for Old Cases"
+        android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.49"
@@ -90,13 +98,15 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.513" />
 
-    <EditText
+    <TextView
         android:id="@+id/editTextText9"
         android:layout_width="358dp"
         android:layout_height="42dp"
         android:ems="10"
+        android:fontFamily="@font/alata"
         android:inputType="text"
         android:text="Biometric Recognition"
+        android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.49"
@@ -104,13 +114,15 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.426" />
 
-    <EditText
+    <TextView
         android:id="@+id/editTextText10"
         android:layout_width="358dp"
         android:layout_height="42dp"
         android:ems="10"
+        android:fontFamily="@font/alata"
         android:inputType="text"
         android:text="Passed Records"
+        android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.49"

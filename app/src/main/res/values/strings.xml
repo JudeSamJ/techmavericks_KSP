@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">tech_mav_ksp</string>
+    <string name="app_name">KSP</string>
     <string name="title_activity_main2">MainActivity2</string>
     <!-- Strings used for fragments for navigation -->
     <string name="first_fragment">First Fragment</string>

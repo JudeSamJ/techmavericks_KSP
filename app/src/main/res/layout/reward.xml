@@ -26,7 +26,7 @@
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:fontFamily="sans-serif-black"
+        android:fontFamily="@font/alfa_slab_one"
         android:gravity="bottom|center|fill|end"
         android:text="REWARDS"
         android:textSize="40sp"
@@ -41,6 +41,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
+        android:fontFamily="@font/archivo_medium"
         android:inputType="text"
         android:text="No of tasks completed:"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -69,6 +70,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
+        android:fontFamily="@font/archivo_medium"
         android:inputType="text"
         android:text="Police Level:"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -83,6 +85,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
+        android:fontFamily="@font/archivo_medium"
         android:inputType="text"
         android:text="Experience level:"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -92,25 +95,28 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.533" />
 
-    <EditText
+    <TextView
         android:id="@+id/editTextNumber3"
         android:layout_width="58dp"
         android:layout_height="50dp"
         android:ems="10"
-        android:inputType="number"
+        android:fontFamily="@font/archivo_medium"
+        android:text="6"
+        android:textSize="25sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.83"
+        app:layout_constraintHorizontal_bias="0.847"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.537" />
 
-    <EditText
+    <TextView
         android:id="@+id/editTextNumber2"
         android:layout_width="58dp"
         android:layout_height="41dp"
         android:ems="10"
-        android:inputType="number"
+        android:text="34"
+        android:textSize="25sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.83"
@@ -118,12 +124,13 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.646" />
 
-    <EditText
+    <TextView
         android:id="@+id/editTextText8"
         android:layout_width="55dp"
         android:layout_height="49dp"
         android:ems="10"
-        android:inputType="text"
+        android:text="PI"
+        android:textSize="25sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.831"
@@ -147,6 +154,7 @@
         android:id="@+id/textView3"
         android:layout_width="112dp"
         android:layout_height="41dp"
+        android:fontFamily="@font/archivo_medium"
         android:text="Progress:"
         android:textSize="22sp"
         app:layout_constraintBottom_toBottomOf="parent"
