@@ -266,7 +266,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.931" />
-
     <ImageButton
         android:id="@+id/profile_button"
         android:layout_width="wrap_content"
@@ -276,7 +275,9 @@
         app:layout_constraintHorizontal_bias="0.077"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.059"
+        app:layout_constraintVertical_bias="0.089"
         app:srcCompat="@drawable/backward" />
+
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
