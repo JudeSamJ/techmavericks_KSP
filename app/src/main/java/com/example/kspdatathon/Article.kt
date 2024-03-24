@@ -15,8 +15,8 @@ class Article:AppCompatActivity() {
             val intent = Intent(this, DashboardActivity::class.java)
             startActivity(intent)
         }
-        val frontButton: ImageButton = findViewById(R.id.front_button)
-        frontButton.setOnClickListener {
+        val uploadButton: Button = findViewById(R.id.upload_button)
+        uploadButton.setOnClickListener {
             val intent = Intent(this, Article_1::class.java)
             startActivity(intent)
 
