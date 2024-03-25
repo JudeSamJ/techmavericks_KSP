@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "460872219418",
+    "project_id": "advance-verve-416011",
+    "storage_bucket": "advance-verve-416011.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:460872219418:android:5d647dc0587f35c728caa3",
+        "android_client_info": {
+          "package_name": "com.example.kspdatathon"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAn5_m0AxTamhAB9VTOnxU8IZK_PJRM-Fw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
