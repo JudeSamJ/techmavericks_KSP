@@ -34,15 +34,16 @@
         app:layout_constraintTop_toTopOf="@+id/top_rounded_rectangle"
         app:layout_constraintVertical_bias="0.054" />
 
-    <TextView
-        android:id="@+id/editTextText5"
+    <Button
+        android:id="@+id/evidencelogButton"
         android:layout_width="358dp"
-        android:layout_height="42dp"
+        android:layout_height="wrap_content"
         android:ems="10"
         android:fontFamily="@font/alata"
         android:gravity="center"
         android:inputType="text"
-        android:text="Basic Settings"
+        android:text="Evidence Log"
+        android:paddingBottom="5dp"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -51,10 +52,10 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.264" />
 
-    <TextView
-        android:id="@+id/editTextText6"
+    <Button
+        android:id="@+id/aboutButton"
         android:layout_width="358dp"
-        android:layout_height="42dp"
+        android:layout_height="wrap_content"
         android:ems="10"
         android:fontFamily="@font/alata"
         android:gravity="center"
@@ -68,10 +69,10 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.686" />
 
-    <TextView
-        android:id="@+id/editTextText7"
+    <Button
+        android:id="@+id/langButton"
         android:layout_width="358dp"
-        android:layout_height="42dp"
+        android:layout_height="wrap_content"
         android:ems="10"
         android:fontFamily="@font/alata"
         android:gravity="center"
@@ -85,10 +86,10 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.599" />
 
-    <TextView
-        android:id="@+id/editTextText8"
+    <Button
+        android:id="@+id/backupButton"
         android:layout_width="358dp"
-        android:layout_height="42dp"
+        android:layout_height="wrap_content"
         android:ems="10"
         android:fontFamily="@font/alata"
         android:gravity="center"
@@ -102,10 +103,10 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.513" />
 
-    <TextView
-        android:id="@+id/editTextText9"
+    <Button
+        android:id="@+id/biometricButton"
         android:layout_width="358dp"
-        android:layout_height="42dp"
+        android:layout_height="wrap_content"
         android:ems="10"
         android:fontFamily="@font/alata"
         android:gravity="center"
@@ -119,15 +120,15 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.426" />
 
-    <TextView
-        android:id="@+id/editTextText10"
+    <Button
+        android:id="@+id/SOSButton"
         android:layout_width="358dp"
-        android:layout_height="42dp"
+        android:layout_height="wrap_content"
         android:ems="10"
         android:fontFamily="@font/alata"
         android:gravity="center"
         android:inputType="text"
-        android:text="Passed Records"
+        android:text="SOS"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

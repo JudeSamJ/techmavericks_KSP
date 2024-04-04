@@ -16,5 +16,10 @@ class Settings:AppCompatActivity() {
             val intent = Intent(this, DashboardActivity::class.java)
             startActivity(intent)
         }
+        val evidenceButton: Button = findViewById(R.id.evidencelogButton)
+        evidenceButton.setOnClickListener {
+            val intent = Intent(this, Evidence::class.java)
+            startActivity(intent)
+        }
     }
 }

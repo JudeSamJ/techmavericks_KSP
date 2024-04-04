@@ -45,17 +45,17 @@
         android:inputType="number"
         android:textSize="24dp" />
 
+
     <EditText
         android:id="@+id/dob"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/contact"
-        android:layout_marginTop="58dp"
-        android:hint="Date of Birth"
+        android:layout_marginTop="36dp"
         android:fontFamily="@font/alata"
+        android:hint="Date of Birth"
         android:inputType="number"
         android:textSize="24dp" />
-
 
     <Button
         android:id="@+id/btnInsert"

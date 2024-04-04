@@ -4,12 +4,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:ignore="MissingClass"
-    android:background="@drawable/apps">
+    android:alpha="0.975"
+    android:background="@drawable/apps"
+    tools:ignore="MissingClass">
+
     <RelativeLayout
+        android:id="@+id/below"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/below"
+        android:alpha="0.975"
         android:background="@color/orange">
 
         <androidx.appcompat.widget.LinearLayoutCompat
@@ -67,18 +70,19 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="SAMAYA"
-                    android:textSize="30dp"></TextView>
+                    android:textSize="30dp"
+                    android:fontFamily="@font/alata">
+                </TextView>
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="6dp"
-                    android:text="Online"></TextView>
+                    android:text="Online"
+                    android:fontFamily="@font/alata">></TextView>
 
 
             </androidx.appcompat.widget.LinearLayoutCompat>
-
-
 
 
         </androidx.appcompat.widget.LinearLayoutCompat>
@@ -86,33 +90,34 @@
     </RelativeLayout>
 
     <RelativeLayout
+        android:id="@+id/above"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/above"
         android:layout_alignParentBottom="true"
-        android:layout_marginBottom="8dp"
         android:layout_marginLeft="16dp"
-        android:layout_marginRight="18dp">
+        android:layout_marginRight="18dp"
+        android:layout_marginBottom="8dp">
+
         <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            app:cardCornerRadius="28dp"
-            android:layout_marginBottom="8dp"
             android:layout_marginLeft="12dp"
             android:layout_marginRight="16dp"
-            >
+            android:layout_marginBottom="8dp"
+            app:cardCornerRadius="28dp">
+
             <EditText
                 android:id="@+id/edit"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="@string/ask_me"
-                android:textSize="25dp"
-                android:paddingLeft="24dp"
-                android:paddingBottom="16dp"
-                android:paddingTop="16dp"
+                android:backgroundTint="@android:color/transparent"
                 android:drawableRight="@drawable/send1"
+                android:hint="@string/ask_me"
+                android:paddingLeft="24dp"
+                android:paddingTop="16dp"
                 android:paddingRight="18dp"
-                android:backgroundTint="@android:color/transparent"></EditText>
+                android:paddingBottom="16dp"
+                android:textSize="25dp"></EditText>
 
             <RelativeLayout
                 android:layout_width="match_parent"

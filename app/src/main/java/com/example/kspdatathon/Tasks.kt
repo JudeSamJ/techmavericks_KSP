@@ -17,16 +17,24 @@ class Tasks : AppCompatActivity() {
             startActivity(intent)
         }
         val acceptButton: Button = findViewById(R.id.button7)
-        acceptButton.setOnClickListener {
-            val intent = Intent(this, DashboardActivity::class.java)
-            startActivity(intent)
+        acceptButton.setOnClickListener { view ->
+            Snackbar.make(view, "Button clicked!", Snackbar.LENGTH_SHORT)
+                .setAction("Undo") {
+                    // Handle undo action (optional)
+                }
+                .show()
+            acceptButton.setOnClickListener {
+                val intent = Intent(this, DashboardActivity::class.java)
+                startActivity(intent)
+            }
+            val rejectButton: Button = findViewById(R.id.button19)
+            rejectButton.setOnClickListener {
+                val intent = Intent(this, DashboardActivity::class.java)
+                startActivity(intent)
+            }
 
         }
-        val rejectButton: Button = findViewById(R.id.button19)
-        rejectButton.setOnClickListener {
-            val intent = Intent(this, DashboardActivity::class.java)
-            startActivity(intent)
-        }
+
 
     }
 }
