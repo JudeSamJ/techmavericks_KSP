@@ -14,8 +14,5 @@ class ChatActivity : AppCompatActivity() {
             val intent = Intent(this, DashboardActivity::class.java)
             startActivity(intent)
         }
-
-
     }
-
 }
