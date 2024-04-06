@@ -21,5 +21,14 @@ class Settings : AppCompatActivity() {
             val intent = Intent(this, Evidence::class.java)
             startActivity(intent)
         }
+        val langButton: Button = findViewById(R.id.langButton)
+        langButton.setOnClickListener {
+            val intent = Intent(this, Language::class.java)
+            startActivity(intent)
+        }
+        val aboutButton: Button = findViewById(R.id.aboutButton)
+        aboutButton.setOnClickListener {
+            val intent = Intent(this, About::class.java)
+            startActivity(intent)
     }
-}
+}}
