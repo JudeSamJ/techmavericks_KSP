@@ -1,18 +1,13 @@
 package com.example.kspdatathon
 
 import android.content.Intent
-import android.content.pm.PackageManager
 import android.os.Bundle
 import android.net.Uri
-import android.widget.Button
 import android.widget.ImageButton
 import android.widget.Toast
-import android.Manifest
-import android.view.LayoutInflater
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.content.ContextCompat
-import androidx.core.app.ActivityCompat
 import com.example.kspdatathon.databinding.Article1Binding
+import com.example.kspdatathon.databinding.Article2Binding
 import java.io.File
 
 class Article : AppCompatActivity() {
@@ -24,7 +19,11 @@ class Article : AppCompatActivity() {
         val view = binding.root
         setContentView(view)
 
-        binding.uploadButton.setOnClickListener { showFileChooser() }
+        binding.uploadButton.setOnClickListener {
+            showFileChooser()
+            val intent = Intent(this,Article2Binding::class.java)
+            startActivity(intent)
+        }
 
         val articleButton: ImageButton = findViewById(R.id.back_button)
         articleButton.setOnClickListener {
