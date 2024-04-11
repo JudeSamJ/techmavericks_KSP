@@ -1,10 +1,11 @@
 package com.example.kspdatathon
 
+import android.animation.ObjectAnimator
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 import android.widget.ImageButton
+import androidx.appcompat.app.AppCompatActivity
 
 class DashboardActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -16,7 +17,9 @@ class DashboardActivity : AppCompatActivity() {
         myButton.setOnClickListener {
             val intent = Intent(this, MapActivity::class.java)
             startActivity(intent)
-
+            val fadeAnim = ObjectAnimator.ofFloat(myButton,"alpha",1.0f,0.0f)
+            fadeAnim.setDuration(500)
+            fadeAnim.start()
 
         }
         val recordButton: Button = findViewById(R.id.button4)

@@ -24,7 +24,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-
     <View
         android:id="@+id/bottom_rounded_rectangle"
         android:layout_width="417dp"
@@ -42,7 +41,7 @@
         android:layout_width="58dp"
         android:layout_height="52dp"
         android:background="?attr/selectableItemBackground"
-        android:contentDescription="Menu"
+        android:contentDescription = "Menu"
         android:padding="8dp"
         android:src="@drawable/icons8_hamburger_menu"
         app:layout_constraintBottom_toBottomOf="@+id/bottom_rounded_rectangle"

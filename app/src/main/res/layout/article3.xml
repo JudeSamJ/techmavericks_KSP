@@ -23,107 +23,100 @@
         android:id="@+id/back_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="333dp"
-        android:layout_marginBottom="682dp"
+        android:layout_marginStart="37dp"
+        android:layout_marginEnd="326dp"
+        android:layout_marginBottom="677dp"
         android:onClick="goBack"
         android:src="@drawable/baseline_arrow_back_24" />
 
-    <EditText
-        android:id="@+id/editTextText6"
-        android:layout_width="364dp"
-        android:layout_height="30dp"
+    <TextView
+        android:layout_width="332dp"
+        android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginStart="29dp"
-        android:layout_marginTop="105dp"
-        android:background="#4CAF50"
-        android:ems="10"
-        android:inputType="text"
-        android:text="1) Cybercrimes like online frauds, hacking" />
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="137dp"
+        android:layout_marginEnd="38dp"
+        android:layout_marginBottom="559dp"
+        android:fontFamily="@font/alata"
+        android:text="Data Breach Reported in Mysore"
+        android:textSize="22sp" />
 
-    <EditText
-        android:id="@+id/editTextText7"
-        android:layout_width="364dp"
-        android:layout_height="30dp"
+    <TextView
+        android:layout_width="356dp"
+        android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginStart="27dp"
-        android:layout_marginTop="200dp"
-        android:background="#4CAF50"
-        android:ems="10"
-        android:inputType="text"
-        android:text="2) Drug Trafficking leads to spoil youth's life " />
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="225dp"
+        android:layout_marginEnd="37dp"
+        android:layout_marginBottom="478dp"
+        android:fontFamily="@font/alata"
+        android:text="Mysore, Karnataka - August 18, 2018: "
+        android:textSize="16sp" />
 
-    <EditText
-        android:id="@+id/editTextText9"
-        android:layout_width="364dp"
-        android:layout_height="30dp"
-        android:layout_alignParentStart="true"
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="28dp"
-        android:layout_marginTop="297dp"
-        android:background="#4CAF50"
-        android:ems="10"
-        android:inputType="text"
-        android:text="3) Incidents of violence,robberies,and murders" />
-
-    <EditText
-        android:id="@+id/editTextText10"
-        android:layout_width="364dp"
-        android:layout_height="30dp"
-        android:layout_alignParentStart="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="20dp"
-        android:layout_marginBottom="300dp"
-        android:background="#4CAF50"
-        android:ems="10"
-        android:inputType="text"
-        android:text="4)  Corruption in Government Institutions." />
+        android:layout_marginTop="255dp"
+        android:layout_marginBottom="219dp"
+        android:fontFamily="@font/archivo_medium"
+        android:padding="20dp"
+        android:text="Police in Mysore are investigating a data breach reported earlier this week. Banga Raju Pillai, a resident of Alanahalli, filed a First Information Report (FIR) on August 15th, alleging that confidential data was stolen through hacking on August 14th.The FIR mentions The Information Technology Act in connection with the hacking and data theft.  However, the specific nature of the stolen data and the potential impact remain unclear.The police report also includes sections from the Indian Motor Vehicle Act and the Indian Evidence Act, though their relevance to this specific case is not immediately apparent.Authorities have not identified any suspects at this time.  WHC Bajantri of the Alanahalli Police Station is assigned to lead the investigation." />
 
-    <EditText
-        android:id="@+id/editTextText11"
-        android:layout_width="364dp"
-        android:layout_height="30dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginStart="24dp"
-        android:layout_marginBottom="199dp"
-        android:background="#4CAF50"
-        android:ems="10"
-        android:inputType="text"
-        android:text="5) Domestic abuse remains a prevalent issue. " />
-
-    <EditText
-        android:id="@+id/editTextText12"
-        android:layout_width="364dp"
-        android:layout_height="30dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginStart="27dp"
-        android:layout_marginBottom="100dp"
-        android:background="#4CAF50"
-        android:ems="10"
-        android:inputType="text"
-        android:text="6) Witnesses a high number of road accidents." />
-
-    <EditText
+    <TextView
         android:id="@+id/editTextText13"
         android:layout_width="109dp"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
         android:layout_marginEnd="159dp"
-        android:layout_marginBottom="656dp"
+        android:layout_marginBottom="676dp"
         android:ems="10"
         android:fontFamily="@font/alfa_slab_one"
         android:inputType="text"
         android:text="REPORT"
         android:textSize="23dp"
         android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/reportShare"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="168dp"
+        android:layout_marginTop="503dp"
+        android:layout_marginEnd="163dp"
+        android:layout_marginBottom="148dp"
+        android:background="@drawable/vectorstock_47603261"
+        android:textSize="" />
+
+    <TextView
+        android:layout_width="70dp"
+        android:layout_height="41dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="176dp"
+        android:layout_marginTop="579dp"
+        android:layout_marginEnd="165dp"
+        android:layout_marginBottom="111dp"
+        android:text="Share"
+        android:fontFamily="@font/archivo_medium"
+        android:textSize="22sp" />
 
 
 </RelativeLayout>
