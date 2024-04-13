@@ -21,7 +21,7 @@
         android:layout_height="wrap_content"
         android:fontFamily="@font/alfa_slab_one"
         android:gravity="center"
-        android:text="EVIDENCE LOG"
+        android:text="@string/evidence_log"
         android:textSize="25sp"
         android:translationY="-270dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -36,7 +36,7 @@
         android:layout_height="wrap_content"
         android:fontFamily="@font/archivo_medium"
         android:gravity="center"
-        android:text="Case ID : "
+        android:text="@string/case_id"
         android:textSize="16sp"
         android:textStyle="bold"
         android:translationX="-77dp"
@@ -51,7 +51,7 @@
         android:layout_height="wrap_content"
         android:fontFamily="@font/archivo_medium"
         android:gravity="center"
-        android:text="Weapon used : "
+        android:text="@string/weapon_used"
         android:textSize="16sp"
         android:textStyle="bold"
         android:translationX="-77dp"
@@ -66,7 +66,7 @@
         android:layout_height="wrap_content"
         android:fontFamily="@font/archivo_medium"
         android:gravity="center"
-        android:text="Biological Evidence : "
+        android:text="@string/bio_used"
         android:textSize="16sp"
         android:textStyle="bold"
         android:translationX="-77dp"
@@ -81,7 +81,7 @@
         android:layout_height="wrap_content"
         android:fontFamily="@font/archivo_medium"
         android:gravity="center"
-        android:text="Trace evidence : "
+        android:text="@string/trace"
         android:textSize="16sp"
         android:textStyle="bold"
         android:translationX="-77dp"
@@ -97,7 +97,7 @@
         android:layout_height="wrap_content"
         android:fontFamily="@font/archivo_medium"
         android:gravity="center"
-        android:text="Digital evidence : "
+        android:text="@string/digital_evidence"
         android:textSize="16sp"
         android:textStyle="bold"
         android:translationX="-77dp"
@@ -112,7 +112,7 @@
         android:layout_height="wrap_content"
         android:fontFamily="@font/archivo_medium"
         android:gravity="center"
-        android:text="Firearm evidence : "
+        android:text="@string/firearm_evidence"
         android:textSize="16sp"
         android:textStyle="bold"
         android:translationX="-77dp"
@@ -134,6 +134,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Spinner
+        android:id="@+id/weapon"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:translationX="75dp"
@@ -144,6 +145,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Spinner
+        android:id="@+id/bio"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:translationX="75dp"
@@ -154,6 +156,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Spinner
+        android:id="@+id/trace"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:translationX="75dp"
@@ -164,6 +167,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Spinner
+        android:id="@+id/digital"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:translationX="75dp"
@@ -174,6 +178,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Spinner
+        android:id="@+id/firearm"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:translationX="75dp"
@@ -187,7 +192,7 @@
         android:id="@+id/createlogButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Create log"
+        android:text="@string/create_log"
         android:translationY="80dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

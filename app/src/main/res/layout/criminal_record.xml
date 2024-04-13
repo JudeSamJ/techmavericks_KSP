@@ -16,9 +16,9 @@
         android:layout_marginTop="20dp"
         android:background="@color/orange"
         android:fontFamily="@font/alfa_slab_one"
-        android:text="Criminal Record"
+        android:text="@string/criminal_record"
         android:textAlignment="center"
-        android:textSize="28dp"
+        android:textSize="28sp"
         android:textStyle="bold">
 
     </TextView>
@@ -29,10 +29,10 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/texttitle"
         android:layout_marginTop="26dp"
-        android:hint="Name"
+        android:hint="@string/criminal_name"
         android:fontFamily="@font/alata"
         android:inputType="textPersonName"
-        android:textSize="24dp" />
+        android:textSize="24sp" />
 
     <EditText
         android:id="@+id/contact"
@@ -40,10 +40,10 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/name"
         android:layout_marginTop="48dp"
-        android:hint="Case_No"
+        android:hint="@string/criminal_no"
         android:fontFamily="@font/alata"
         android:inputType="number"
-        android:textSize="24dp" />
+        android:textSize="24sp" />
 
 
     <EditText
@@ -53,16 +53,16 @@
         android:layout_below="@+id/contact"
         android:layout_marginTop="36dp"
         android:fontFamily="@font/alata"
-        android:hint="Date of Birth"
+        android:hint="@string/criminal_dob"
         android:inputType="number"
-        android:textSize="24dp" />
+        android:textSize="24sp" />
 
     <Button
         android:id="@+id/btnInsert"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textSize="24dp"
-        android:text="Insert New Data"
+        android:textSize="24sp"
+        android:text="@string/criminal_new_data"
         android:fontFamily="@font/archivo_medium"
         android:layout_marginTop="30dp"
         android:layout_below="@id/dob"/>
@@ -75,9 +75,9 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/btnInsert"
         android:layout_marginTop="30dp"
-        android:text="Update Data"
+        android:text="@string/criminal_update_data"
         android:fontFamily="@font/archivo_medium"
-        android:textSize="24dp" />
+        android:textSize="24sp" />
 
     <Button
         android:id="@+id/btnDelete"
@@ -85,9 +85,9 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/btnUpdate"
         android:layout_marginTop="30dp"
-        android:text="Delete Existing Data"
+        android:text="@string/criminal_delete_data"
         android:fontFamily="@font/archivo_medium"
-        android:textSize="24dp" />
+        android:textSize="24sp" />
 
     <Button
         android:id="@+id/btnView"
@@ -95,9 +95,9 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/btnDelete"
         android:layout_marginTop="30dp"
-        android:text="Fetch Data"
+        android:text="@string/criminal_fetch_data"
         android:fontFamily="@font/archivo_medium"
-        android:textSize="24dp" />
+        android:textSize="24sp" />
 
     <ImageButton
         android:id="@+id/back_button"
@@ -105,7 +105,6 @@
         android:layout_height="wrap_content"
         android:layout_alignBottom="@id/texttitle"
         android:layout_marginBottom="22dp"
-        android:onClick="goBack"
         android:src="@drawable/baseline_arrow_back_24" />
 
 

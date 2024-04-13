@@ -34,10 +34,10 @@
                     android:layout_height="match_parent"
                     android:fontFamily="@font/alfa_slab_one"
                     android:foregroundGravity="center"
-                    android:text="    Head Quarters"
+                    android:text="       Head Quarters"
                     android:textAlignment="center"
                     android:textColor="#150F0F"
-                    android:textSize="32dp"
+                    android:textSize="32sp"
                     android:textStyle="bold">
 
                 </TextView>

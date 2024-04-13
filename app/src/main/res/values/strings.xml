@@ -8,4 +8,75 @@
     <string name="previous">Previous</string>
     <string name="ask_me">Ask Me</string>
     <string name="quitButton">Quit Button</string>
+    <string name="generateText">GENERATE</string>
+    <string name="articleText">view article</string>
+    <string name="uploadDoc">upload the document</string>
+    <string name="upload">UPLOAD</string>
+    <string name="firstSentence">Data Breach Reported in Mysore</string>
+    <string name="secondSentence">Mysore, Karnataka - August 18, 2018: </string>
+    <string name="thirdSentence">Police in Mysore are investigating a data breach reported earlier this week. Banga Raju Pillai, a resident of Alanahalli, filed a First Information Report (FIR) on August 15th, alleging that confidential data was stolen through hacking on August 14th.The FIR mentions The Information Technology Act in connection with the hacking and data theft.  However, the specific nature of the stolen data and the potential impact remain unclear.The police report also includes sections from the Indian Motor Vehicle Act and the Indian Evidence Act, though their relevance to this specific case is not immediately apparent.Authorities have not identified any suspects at this time.  WHC Bajantri of the Alanahalli Police Station is assigned to lead the investigation.</string>
+    <string name="report">REPORT</string>
+    <string name="share">SHARE</string>
+    <string name="backup">BACKUP</string>
+    <string name="backup_1">BATCH 1970 RECORD FILES</string>
+    <string name="backup_2">BATCH 1980 RECORD FILES</string>
+    <string name="backup_3">BATCH 1990 RECORD FILES</string>
+    <string name="backup_4">BATCH 2000 RECORD FILES</string>
+    <string name="backup_5">BATCH 2010 RECORD FILES</string>
+    <string name="backup_6">BATCH 2020 RECORD FILES</string>
+    <string name="chatbot">SAMAYA</string>
+    <string name="status">Online</string>
+    <string name="criminal_record">Criminal Record</string>
+    <string name="criminal_name">Name</string>
+    <string name="criminal_no">Case no.</string>
+    <string name="criminal_dob">Date of Birth</string>
+    <string name="criminal_new_data">Insert New Data</string>
+    <string name="criminal_update_data">Update Data</string>
+    <string name="criminal_delete_data">Delete Existing Data</string>
+    <string name="criminal_fetch_data">Fetch Data</string>
+    <string name="dashboard">DASHBOARD</string>
+    <string name="tasks">Tasks</string>
+    <string name="rewards">Rewards</string>
+    <string name="criminal">Criminal Record</string>
+    <string name="location">Location</string>
+    <string name="chat">ChatBot</string>
+    <string name="article">Article</string>
+    <string name="evidence_log">EVIDENCE LOG</string>
+    <string name="case_id">Case ID : </string>
+    <string name="weapon_used">Weapon used : </string>
+    <string name="bio_used">Biological Evidence : </string>
+    <string name="trace">Trace evidence : </string>
+    <string name="digital_evidence">Digital evidence : </string>
+    <string name="firearm_evidence">Firearm evidence : </string>
+    <string name="number">Number</string>
+    <string name="create_log">Create log</string>
+    <string name="languages">LANGUAGES</string>
+    <string name="lang_eng">English</string>
+    <string name="lang_kannada">Kannada</string>
+    <string name="lang_hindi">Hindi</string>
+    <string-array name="weapon">
+        <item>Knife</item>
+        <item>Hammer</item>
+        <item>ChainSaw</item>
+    </string-array>
+    <string-array name="bio">
+        <item>Hair</item>
+        <item>Fingernails</item>
+        <item>Severed limbs</item>
+    </string-array>
+    <string-array name="trace">
+        <item>Blood stains</item>
+        <item>Broken furnitures</item>
+        <item>Shattered glass</item>
+    </string-array>
+    <string-array name="firearm">
+        <item>Nil</item>
+        <item>Pistol</item>
+        <item>Rifle</item>
+    </string-array>
+    <string-array name="digital">
+        <item>Nil</item>
+        <item>Video proof</item>
+        <item>Audio proof</item>
+    </string-array>
 </resources>

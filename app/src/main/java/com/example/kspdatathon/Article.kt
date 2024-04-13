@@ -30,6 +30,11 @@ class Article : AppCompatActivity() {
             val intent = Intent(this, DashboardActivity::class.java)
             startActivity(intent)
         }
+        val article_Button: ImageButton = findViewById(R.id.forward_button)
+        article_Button.setOnClickListener {
+            val intent = Intent(this, Article_2::class.java)
+            startActivity(intent)
+        }
 
 
     }

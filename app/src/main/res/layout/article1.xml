@@ -12,9 +12,9 @@
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
         android:gravity="center"
-        android:text="upload the document"
+        android:text="@string/uploadDoc"
         android:textColor="@color/black"
-        android:textSize="20dp"
+        android:textSize="20sp"
         android:textStyle="bold" />
 
     <TextView
@@ -38,8 +38,8 @@
         android:layout_centerInParent="true"
         android:layout_marginTop="10dp"
         android:gravity="center"
-        android:text="UPLOAD"
-        android:textSize="20dp"
+        android:text="@string/upload"
+        android:textSize="20sp"
         android:textStyle="bold" />
 
     <androidx.appcompat.widget.Toolbar
@@ -58,12 +58,29 @@
         android:id="@+id/back_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="10dp"
         android:layout_marginEnd="342dp"
         android:layout_marginBottom="792dp"
-        android:onClick="goBack"
         android:src="@drawable/baseline_arrow_back_24" />
+
+    <ImageButton
+        android:id="@+id/forward_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="344dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="19dp"
+        android:layout_marginBottom="791dp"
+        android:src="@drawable/baseline_arrow_forward_24" />
 
 </RelativeLayout>
 

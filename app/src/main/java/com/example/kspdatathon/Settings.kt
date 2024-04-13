@@ -30,5 +30,11 @@ class Settings : AppCompatActivity() {
         aboutButton.setOnClickListener {
             val intent = Intent(this, About::class.java)
             startActivity(intent)
+        }
+        val backupButton: Button = findViewById(R.id.backupButton)
+        backupButton.setOnClickListener {
+            val intent = Intent(this, Backup::class.java)
+            startActivity(intent)
+        }
     }
-}}
+}
