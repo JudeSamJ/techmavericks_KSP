@@ -13,6 +13,9 @@ Below are the basic requirements you should have prior to getting started.
 2. 2 GB RAM minimum, 8 GB RAM recommended. *We'll need RAM for running our Android Virtual Device (AVD) emulator and processing our code.*
 3. The latest version of Android Studio. Get it from [here](https://developer.android.com/studio/index.html).
 
+### Application:
+Prototype.apk is the dashboard app that we built.
+
 ### How to run our application:
 1. Open the techmavericks_ksp project folder in your Android Studio Application.
 2. Run the app in your virtual device and be sure to give the credntials correctly
