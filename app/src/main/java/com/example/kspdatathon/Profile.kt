@@ -19,7 +19,7 @@ class Profile:AppCompatActivity() {
         }
         val logoutButton: Button = findViewById(R.id.logout_button)
         logoutButton.setOnClickListener {
-            val intent = Intent(this, LoginActivity::class.java)
+            val intent = Intent(this,LoginActivity::class.java)
             startActivity(intent)
         }
     }
