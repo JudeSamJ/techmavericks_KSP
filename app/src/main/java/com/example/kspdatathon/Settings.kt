@@ -38,7 +38,12 @@ class Settings : AppCompatActivity() {
         }
         val sosButton: Button = findViewById(R.id.SOSButton)
         sosButton.setOnClickListener {
-            val intent = Intent(this, SOS::class.java)
+            val intent = Intent(this, DashboardActivity::class.java)
+            startActivity(intent)
+        }
+        val biometricButton: Button = findViewById(R.id.biometricButton)
+        biometricButton.setOnClickListener {
+            val intent = Intent(this, DashboardActivity::class.java)
             startActivity(intent)
         }
     }

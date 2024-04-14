@@ -53,6 +53,7 @@ class ChatActivity : AppCompatActivity() {
             "hey there" -> "Hello There!"
             "good night" -> "Let the stars be with you"
             "tell me a joke" -> "Why don't scientists trust atoms? Because they make up everything!"
+            "what is ksp"->"KSP stands for Karnataka State Police"
             "thank you", "thanks" -> "You're welcome!"
             "bye", "goodbye","see you around","see you later",-> "Goodbye! Have a great day!"
             "are you a bot" -> "Yes, I am a Bot."
