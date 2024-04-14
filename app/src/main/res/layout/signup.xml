@@ -83,7 +83,6 @@
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:drawableEnd="@drawable/done"
                 android:inputType="textEmailAddress" />
             <TextView
                 android:layout_marginTop="10dp"
