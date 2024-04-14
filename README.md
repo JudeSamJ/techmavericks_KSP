@@ -37,7 +37,7 @@ Below are the basic requirements you should have prior to getting started.
 
 -> Strategic AI-Generated Public Disclosure
 
--> Secure Chat Communication
+-> Secure Chat Communication using Rasa Framework
 
 -> Dashboard Design
 
