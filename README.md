@@ -16,22 +16,33 @@ Below are the basic requirements you should have prior to getting started.
 ### How to run our application:
 1. Open the techmavericks_ksp project folder in your Android Studio Application.
 2. Run the app in your virtual device and be sure to give the credntials correctly
-3. The credentials for Signup page: Email - example@gmail.com, Username - bajantri , password - password123 , confirm password - password123
-4. The credentials for Login page: Email - example@gmail.com, password - password123
+3. The credentials for Signup page: Email - 'example@gmail.com', Username - bajantri , password - password123 , confirm password - password123
+4. The credentials for Login page: Email - 'example@gmail.com', password - password123
 5. The integrated chatbot works fine with certain keywords mentioned in the Chatbot.kt File.
 
 ## Unique Features:
 -> AI-driven Task Allocation
+
 -> Mobile Application and Dashboard
+
 -> Reward System for Motivation
+
 -> Implementing Comprehensive Security Measures
+
 -> Criminal Record Access
+
 -> Data Acquisition
+
 -> Streamlining Collaboration
+
 -> Strategic AI-Generated Public Disclosure
+
 -> Secure Chat Communication
+
 -> Dashboard Design
+
 -> Police station level
+
 -> DySP/ACP level
 
 ### Result:
