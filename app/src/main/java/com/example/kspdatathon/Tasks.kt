@@ -25,15 +25,16 @@ class Tasks : AppCompatActivity() {
             val intent = Intent(this, DashboardActivity::class.java)
             startActivity(intent)
 
-            val rejectButton: Button = findViewById(R.id.button19)
-            rejectButton.setOnClickListener { view ->
-                Snackbar.make(view, "Accept Button clicked!", Snackbar.LENGTH_SHORT)
-                    .setAction("Undo") {
-                    }
-                    .show()
-                val intentt = Intent(this, DashboardActivity::class.java)
-                startActivity(intentt)
+
             }
+        val rejectButton: Button = findViewById(R.id.button19)
+        rejectButton.setOnClickListener { view ->
+            Snackbar.make(view, "Reject Button clicked!", Snackbar.LENGTH_SHORT)
+                .setAction("Undo") {
+                }
+                .show()
+            val intentt = Intent(this, DashboardActivity::class.java)
+            startActivity(intentt)
         }
     }
 }
