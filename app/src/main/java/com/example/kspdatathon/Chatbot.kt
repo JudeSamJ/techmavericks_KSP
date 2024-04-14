@@ -6,7 +6,6 @@ import android.widget.EditText
 import android.widget.ImageButton
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
-import com.example.kspdatathon.R
 
 class ChatActivity : AppCompatActivity() {
 
@@ -47,7 +46,7 @@ class ChatActivity : AppCompatActivity() {
 
     private fun respondToUser(message: String) {
         val response = when (message.toLowerCase()) {
-            "hello", "hi" -> "Hello! How can I assist you?"
+            "hello", "hi","hey" -> "Hello! How can I assist you?"
             "how are you" -> "I'm just a chatbot, but thanks for asking!"
             "what's your name" -> "I'm a chatbot. You can call me Chatbot."
             "hey dude" -> "Hey Bro!"
