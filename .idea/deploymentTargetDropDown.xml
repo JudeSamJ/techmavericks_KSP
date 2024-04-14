@@ -5,6 +5,9 @@
       <entry key="ChatActivity">
         <State />
       </entry>
+      <entry key="Settings">
+        <State />
+      </entry>
       <entry key="Signup">
         <State />
       </entry>
@@ -26,6 +29,9 @@
           </targetSelectedWithDropDown>
           <timeTargetWasSelectedWithDropDown value="2024-04-14T09:11:52.464949600Z" />
         </State>
+      </entry>
+      <entry key="criminal_record">
+        <State />
       </entry>
     </value>
   </component>
