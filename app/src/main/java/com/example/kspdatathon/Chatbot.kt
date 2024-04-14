@@ -48,7 +48,9 @@ class ChatActivity : AppCompatActivity() {
         val response = when (message.toLowerCase()) {
             "hello", "hi","hey" -> "Hello! How can I assist you?"
             "how are you" -> "I'm just a chatbot, but thanks for asking!"
-            "what's your name" -> "I'm a chatbot. You can call me Chatbot."
+            "ksp", "KSP" -> "Karnataka State Police"
+            "ksp winners" -> "KSP winners of 2024 is Team Tech Mavericks"
+            "what's your name" -> "I'm SAMAYA. You can call me samaya."
             "hey dude" -> "Hey Bro!"
             "hey there" -> "Hello There!"
             "good night" -> "Let the stars be with you"
@@ -57,6 +59,8 @@ class ChatActivity : AppCompatActivity() {
             "bye", "goodbye","see you around","see you later",-> "Goodbye! Have a great day!"
             "are you a bot" -> "Yes, I am a Bot."
             "can you help me","can you assist me" -> "How may i help you?"
+            "good morning" -> "Thank you, Wishing you It will be a great morning for you"
+
 
             else -> "I'm sorry, I didn't understand that command. Can you please rephrase?"
         }
