@@ -18,10 +18,6 @@ class DashboardActivity : AppCompatActivity() {
         myButton.setOnClickListener {
             val intent = Intent(this, MapActivity::class.java)
             startActivity(intent)
-            val fadeAnim = ObjectAnimator.ofFloat(myButton,"alpha",1.0f,0.0f)
-            fadeAnim.setDuration(500)
-            fadeAnim.start()
-
         }
         val recordButton: Button = findViewById(R.id.button4)
         recordButton.setOnClickListener {
