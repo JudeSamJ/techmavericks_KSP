@@ -36,5 +36,10 @@ class Settings : AppCompatActivity() {
             val intent = Intent(this, Backup::class.java)
             startActivity(intent)
         }
+        val sosButton: Button = findViewById(R.id.SOSButton)
+        sosButton.setOnClickListener {
+            val intent = Intent(this, SOS::class.java)
+            startActivity(intent)
+        }
     }
 }

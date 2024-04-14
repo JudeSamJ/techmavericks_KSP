@@ -11,7 +11,7 @@ class About : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.settings_about)
 
-        val quitButton = findViewById<Button>(R.id.quitButton)
+        val quitButton = findViewById<Button>(R.id.sosbutton)
         quitButton.setOnClickListener {
             Process.killProcess(Process.myPid())
         }
